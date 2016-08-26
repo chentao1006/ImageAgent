@@ -1,0 +1,10 @@
+D:\Projects\ImageAgent\bin\ImageAgent.dll
+D:\Projects\ImageAgent\bin\ImageAgent.pdb
+D:\Projects\ImageAgent\obj\Debug\ImageAgent.dll
+D:\Projects\ImageAgent\obj\Debug\ImageAgent.pdb
+D:\Projects\ImageAgent\obj\Debug\ImageAgent.csprojResolveAssemblyReference.cache
+D:\Projects\SohoNow\ImageAgent\bin\ImageAgent.dll
+D:\Projects\SohoNow\ImageAgent\bin\ImageAgent.pdb
+D:\Projects\SohoNow\ImageAgent\obj\Debug\ImageAgent.csprojResolveAssemblyReference.cache
+D:\Projects\SohoNow\ImageAgent\obj\Debug\ImageAgent.dll
+D:\Projects\SohoNow\ImageAgent\obj\Debug\ImageAgent.pdb
