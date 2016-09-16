@@ -12,8 +12,13 @@ if (!file_exists($images_name)) {
         $size = GetimageSize($_GET['img']);
         $height = round($width * $size[1] / $size[0]);
 
-
-        $images_orig = ImageCreateFromJPEG($_GET['img']);
+        if(preg_match('/\.(png)$/i', $_GET['img']) || isPNG($_GET['img'])){
+            $images_orig = @imagecreatefrompng($_GET['img']);
+        }else{
+            $images_orig = @imagecreatefromjpeg($_GET['img']);
+        }
+        if(!$images_orig)
+            $images_orig = @ImageCreateFromJPEG($_GET['img']);
 
         if(!$images_orig){
                 header('location: '.$_GET['img']);
